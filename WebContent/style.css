@@ -1,0 +1,25 @@
+.imagecontainer {
+
+    position: relative;
+}
+
+.floatingtag {
+    float: left;
+    position: absolute;
+    left: 100px;
+    top: 110px;
+    color: white;
+    font-weight: bold ;
+
+}
+
+.resizedTextbox {
+  width: 300px;
+  height: 30px ;
+}
+
+.btn {
+  width: 100px;
+  height: 60px ;
+
+ }
