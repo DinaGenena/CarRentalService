@@ -78,10 +78,17 @@ th, td {
  </ul>
 <br></br>
 <br></br>
- <form action="/GroupProject/CarServlet" method="post">
- <table style="with: 100%" bgcolor="#DAF0FA" align="center">
+ <form action="/GroupProject/LoginServlet" method="post">
+ <table style="with: 100%" bgcolor="#51A1CC  " align="center" margin-top="30px">
    <tr>
-     <td><h2>Log In</h2></td>
+     <br></br>
+     <br></br>
+   </tr>
+   <tr>
+     <td><image img src="login.png" width="100px" height="100px"/></td>
+   </tr>
+   <tr>
+     <td><h2>Member Login</h2></td>
    </tr>
    <tr>
      <td><input type="text" name="UserNamename" id="UserName" class="resizedTextbox" placeholder="Username" /></td>

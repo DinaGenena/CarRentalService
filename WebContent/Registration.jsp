@@ -63,10 +63,68 @@
       <li><a href="/GroupProject/HomePage.jsp">Home</a></li>
    </ul>
 </div>
-<div>
-This is reg page !!
-</div>
+<div class ="registration">
 
+  <br></br>
+    <br></br>
+  <form action="/GroupProject/addCustomerServlet" method="post">
+  <table style="with: 100%" bgcolor="#51A1CC" align="center" cellpadding="15px" >
+    <tr>
+      <td><h2><center>Register Now</center></h2></td>
+      <td><td><center><image img src="register.png" width="100px" height="100px"/></center></td>
+   </td>
+    </tr>
+    <tr>
+      <td><label>First Name</label></td>
+      <td><input type="text" name="firstname" id="firstname" class="resizedTextbox2" /></td>
+    </tr>
+    <tr>
+      <td><label>Last Name</label></td>
+      <td><input type="text" name="lastname" id="lastname" class="resizedTextbox2"  /></td>
+    </tr>
+     <tr>
+       <td><label>Email</label></td>
+       <td><input type="text" name="email" id="email" class="resizedTextbox2"  /></td>
+     </tr>
+     <tr>
+       <td><label>Password</label></td>
+       <td><input type="text" name="password" id="password" class="resizedTextbox2"  /></td>
+     </tr>
+     <tr>
+       <td><label>Address 1</label></td>
+       <td><input type="text" name="address1" id="address1" class="resizedTextbox2"  /></td>
+     </tr>
+     <tr>
+       <td><label>City</label></td>
+       <td><input type="text" name="city" id="city" class="resizedTextbox2"/></td>
+     </tr>
+     <tr>
+       <td><label>Country</label></td>
+       <td><input type="text" name="country" id="country" class="resizedTextbox2" /></td>
+     </tr>
+     <tr>
+       <td><label>Phone</label></td>
+       <td><input type="text" name="phone" id="phone" class="resizedTextbox2"  /></td>
+     </tr>
+    <tr>
+      <td>
+        <input type="submit" name="submit" id="btnSubmit" value="Register" class="btn" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <br></br>
+    </td>
+    </tr>
+ </table>
+
+ <input name="operation" value="register" type="hidden">
+ </form>
+
+
+</div>
+  <br></br>
+    <br></br>
   <footer >
     Disclaimer : We own none of the photos ,
     Copyrights to respective owners

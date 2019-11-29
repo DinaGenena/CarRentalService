@@ -65,11 +65,11 @@ color : #333
 
 <!--img src="carphoto.jpg" width="100%"/-->
 <div class="imagecontainer">
-      <div class="floatingtag">
+      <div class="floatingtag" >
       <h2>Find a Car Now</h2>
 
       <form action="/GroupProject/CarServlet" method="post">
-			<table frame="box" style="with: 50%">
+			<table style="with: 50%">
 				<tr>
 					<td>From Date</td>
 					<td><input id="date" type="date" placeholder="yyyy-mm-dd"/></td>
@@ -87,9 +87,14 @@ color : #333
       <option value="Luxury Car">Luxury Car</option>
     </select></td>
   </table>
+  <br></br>
+  <br></br>
    <input type="submit" name="submit" id="btnSubmit" value="Find Now" class="btn" />
     <input name="operation" value="findCar" type="hidden">
     </form>
+    <br></br>
+    <br></br>
+
        </div>
 
        <img src="carphoto.jpg" width="100%" />

@@ -5,8 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <title>LogIn</title>
-<link rel="stylesheet"  href="${pageContext.request.contextPath}/style1.css" />
+
 <style>
+
 ul {
   list-style-type: none;
   margin: 0;
