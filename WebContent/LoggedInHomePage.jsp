@@ -46,7 +46,7 @@ color : #333
                   
                    <li><a href="/GroupProject/About.jsp">Manage Your Profile</a></li>
                    <li><a href="/GroupProject/Login.jsp">History</a></li>  
-                   <li><a href="/GroupProject/LoggedInHomePage.jsp">Home</a></li>
+                   <li><a href="/GroupProject/LoggedInHomePage.jsp">Change Payment Information</a></li>
                </ul>
 
              </div>

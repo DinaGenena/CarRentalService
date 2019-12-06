@@ -18,7 +18,7 @@
 .floatingtag2 {
     float: center;
     position: absolute;
-    left : 400px ;
+    left : 500px ;
     top: 100px;
     color: white;
     font-weight: bold ;
@@ -43,29 +43,26 @@
    height: 20px ;
  }
  
-.sidebar {
+ .sideBar {
   height: 97%; 
-  width: 180px;
+  width: 160px;
   position: absolute; 
-  z-index: 1; 
   top: 0 ; 
   left: 0;
   background-color: #333;
-  overflow-x: hidden; 
   padding-top: 20px;
  
  }
 
-.sidebar a {
-  padding: 32px 16px 0px 16px;
-  text-decoration: none;
+.sideBar a {
+  padding: 16px ;
   color: white;
   display : block ;
-  
- 
+  text-decoration: none;
+
  }
  
-.sidebar a:hover {
+.sideBar a:hover {
   background-color: #000000;
 }
 
@@ -85,7 +82,7 @@
   text-align: center;
   padding: 14px 14px;
   text-decoration: none;
-   float: right;
+  float: right;
 }
 
 
